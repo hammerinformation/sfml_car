@@ -38,7 +38,6 @@ void draw_car(sf::RenderWindow& window, const float& a)
 int main()
 {
     sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "Car");
-    window.setKeyRepeatEnabled(false);
 
     sf::Clock clock;
     float a{};
